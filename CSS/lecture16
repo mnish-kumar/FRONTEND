@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            border: solid 2px black;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        span{
+            border: solid 2px blue;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Welcome to the CSS Display lecture! In this lecture, we will explore the different display properties in CSS and how they affect the layout of elements on a webpage.
+    </div>
+
+    <div>
+        The `display` property in CSS is used to control the layout of elements. It can take several values, including `block`, `inline`, `inline-block`, `flex`, and `grid`. Each value has its own unique behavior and use cases.
+    </div>
+
+    <span>
+        The `block` value makes an element a block-level element, meaning it takes up the full width available and starts on a new line.
+    </span>
+
+    <span>
+        The `inline` value makes an element an inline-level element, meaning it only takes up as much width as necessary and does not start on a new line.
+    </span>
+</body>
+</html>
