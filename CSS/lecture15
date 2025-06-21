@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box model</title>
+
+    <style>
+        h1{
+            background-color: aquamarine;
+            border-width: 1.5px;
+            border-color: black;
+            border-style: solid;
+            width: 50%;
+            height: 70px;
+            text-align: center;
+            padding-top: 2%;
+            margin-left: 25%;
+        }
+
+        .firstpara{
+            background-color: lightblue;
+            border-style: dotted;
+            border-width: 2px;
+            border-color: blue;
+        }
+
+        .secondpara{
+            background-color: lightgreen;
+            border-style: dashed;
+            border-radius: 3px;
+            border-color: red;
+            border-width: 3px;
+        }
+
+        .thirdpara{
+            background-color: lightcoral;
+
+        }
+
+        .fourthpara{
+            background-color: hotpink;
+        }
+
+        h3{
+            background-color: pink;
+        }
+
+        .btn{
+            font-size: 14px;
+            font-weight: bold;
+            background-color: lightgray;
+            border: solid 2px gray;
+            border-radius: 2.5px;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+
+        #detail{
+            font-size: 20px;
+            font-weight: bold;
+            color: darkblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Repo...</h1>
+    <p id="detail">Here i am learn of Box model</p>
+
+    <p class="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reiciendis eum mollitia porro ex modi amet harum perspiciatis doloremque error?</p>
+
+    <p class="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odit facilis dolorem magni alias sint quos numquam voluptatibus. Numquam alias blanditiis veritatis ducimus sequi recusandae cum, commodi magni molestias inventore ratione magnam mollitia odit quod aperiam delectus officiis fuga nihil!</p>
+
+    <p class="thirdpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur unde modi voluptas recusandae quidem soluta fugiat consectetur pariatur error tempora debitis, consequuntur dolore aspernatur iure quibusdam eligendi? Nemo delectus, similique dicta distinctio modi beatae labore recusandae ipsam dolorum quasi placeat reiciendis amet pariatur dolore.</p>
+
+    <p class="fourthpara">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora quibusdam laborum, explicabo corrupti voluptates quam illum quaerat. Nulla assumenda non magni quia harum blanditiis atque quaerat hic sed, tempore ullam, facilis necessitatibus quis ad cum debitis eaque ipsa odit delectus porro. Ab, hic. Sequi autem expedita iusto dolorum dolores nemo.
+    </p>
+
+    <h3>Hey i hope you are happy:)</h3>
+
+    <div>
+        <button class="btn">Feedback</button>
+        <input type="text" placeholder="Enter your feedback here..."><br>
+        <input type="radio" name="feedback" value="good">Good
+        <input type="radio" name="feedback" value="bad">Bad<br>
+    </div>
+    
+</body>
+</html>
