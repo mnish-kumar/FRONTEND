@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+
+    <!-- Element selector -->
+    <!-- <style>
+        p {
+            color: red;
+            font-size: 20px;
+        }
+    </style> -->
+
+
+
+
+    <!--Group selector  -->
+    <!-- <style>
+        p , h1{
+            color: rosybrown;
+            width: 500px;
+        }
+    </style> -->
+
+    <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+    <!-- 1 . Inline selector -->
+     <p style="width: 50px;">This is the heading of the dummy text.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a repellendus rem consequatur ipsam iste cupiditate. 
+    Enim earum fuga eum fugit, repellendus magnam, inventore ut unde neque sunt hic, animi blanditiis quo veritatis facere! 
+    Eum, dolores! Nesciunt itaque at qui distinctio rerum expedita, reiciendis nam, vel, tempore modi ipsum necessitatibus.
+    </p>
+
+    <h1>hey buddy i am heading.</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi a repellendus rem consequatur ipsam iste cupiditate.
+    <!-- 2. External seclector -->
+
+    <!--3. Group selector -->
+
+    <!-- 4. Element selector -->
+</body>
+</html>
