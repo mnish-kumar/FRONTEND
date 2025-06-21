@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypoGraphy font</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    
+    <style>
+        p{
+            font-family: "Roboto Condensed", sans-serif;
+            color: aqua;
+            width: 500px;
+        }
+
+        #firstpara{
+            background-color: hotpink;
+            color: brown;
+        }
+
+        #secondpara{
+            background-color: lightblue;
+            color: darkblue;
+        }
+        #thirdpara{
+            background-color: lightgreen;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to repositeries</h1>
+
+    <p id="firstpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima veritatis modi optio repudiandae quod possimus quibusdam quo consequuntur odio libero temporibus, ut inventore alias minus, perspiciatis impedit. Quidem, quae dolores.</p>
+ 
+    <p id="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam commodi dolores, blanditiis error repellat rerum doloribus incidunt et repudiandae, impedit consequuntur sapiente reiciendis hic. Debitis a ex facilis deleniti inventore? Quibusdam architecto dolorum veniam qui vitae explicabo fuga tempora atque?
+    </p>
+
+    <p id ="thirdpara" class="material-symbols-outlined">menu</menu></p>
+
+    <h4>hey hey :) </h4>
+
+</body>
+</html>
